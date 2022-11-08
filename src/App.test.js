@@ -9,11 +9,11 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();   // finds the component in the document if it exists
 });
 
-//task2
+// //task2
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByTestId("comp");
-  expect(linkElement).toHaveTextContent("Hello World");
+// test('renders learn react link', () => {
+//   render(<App />);
+//   const linkElement = screen.getByTestId("comp");
+//   expect(linkElement).toHaveTextContent("Hello World");
 
-});
+// });
